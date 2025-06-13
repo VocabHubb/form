@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Services - LED/LCD Repairing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #161b22;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #30363d;
+    }
+    header h1 {
+      color: #00ffcc;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    .service-section {
+      margin-bottom: 40px;
+    }
+    .service-section h2 {
+      color:#00ffcc;
+      margin-bottom: 20px;
+    }
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #161b22;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #30363d;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #00ffcc;
+    }
+    .contact-form {
+      background-color: #161b22;
+      padding: 30px;
+      border-radius: 10px;
+      border: 1px solid #30363d;
+    }
+    .contact-form h2 {
+      color:#00ffcc;
+      margin-bottom: 20px;
+    }
+    .contact-form form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #30363d;
+      border-radius: 5px;
+      background-color: #0d1117;
+      color: #e6edf3;
+    }
+    .contact-form button {
+      padding: 12px;
+      border: none;
+      background-color: #238636;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .contact-form button:hover {
+      background-color: #2ea043;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #8b949e;
+      border-top: 1px solid #30363d;
+      background-color: #161b22;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LED/LCD Repair Services</h1>
+    <p>Professional and Affordable Screen Repairs</p>
+  </header>
+
+  <div class="container">
+    <section class="service-section">
+      <h2>Common Problems We Fix</h2>
+      <div class="service-grid">
+        <div class="card">
+          <h3>Broken Display</h3>
+          <p>We replace cracked, shattered, or unresponsive screens with genuine parts.</p>
+        </div>
+        <div class="card">
+          <h3>No Picture / Black Screen</h3>
+          <p>Fixing issues related to backlight, power boards, or T-CON boards.</p>
+        </div>
+        <div class="card">
+          <h3>Sound Issues</h3>
+          <p>We fix distorted, low, or no sound issues in all types of LED/LCD TVs.</p>
+        </div>
+        <div class="card">
+          <h3>HDMI / AV Port Repairs</h3>
+          <p>Repairing non-functional HDMI or AV input ports.</p>
+        </div>
+        <div class="card">
+          <h3>Motherboard Problems</h3>
+          <p>We repair or replace faulty motherboards causing startup or image issues.</p>
+        </div>
+        <div class="card">
+          <h3>Remote Sensor / Control Issues</h3>
+          <p>We repair IR sensor issues or remote control malfunctions.</p>
+        </div>
+        <div class="card">
+          <h3>Vertical / Horizontal Lines</h3>
+          <p>We fix screen lines caused by panel or ribbon cable issues.</p>
+        </div>
+        <div class="card">
+          <h3>Color Distortion</h3>
+          <p>Correcting screen colors that are faded, discolored, or distorted.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Need Help? Contact Us</h2>
+      <!-- Replace YOUR-EMAIL-HERE with your actual Gmail address -->
+      <form action="https://formsubmit.co/Faizalmalik289@gmail.com" method="POST">
+        <!-- Optional: Avoid spam -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="New LED/LCD Repair Inquiry!">
+
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="phone" placeholder="Phone Number" required />
+        <textarea name="message" rows="5" placeholder="Describe the issue..." required></textarea>
+        <button type="submit">Send Request</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 LED/LCD Repair Hub | All Rights Reserved.
+  </footer>
+</body>
+</html>
